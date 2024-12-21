@@ -1,0 +1,162 @@
+[0.00 - 5.16]  And this is very, let me show this slide.
+[5.16 - 7.16]  So here are the slides for today.
+[9.92 - 12.12]  So what is the visper?
+[12.12 - 14.00]  And why we're discussing that?
+[14.00 - 18.32]  So mostly when people discuss the generative AI
+[18.32 - 23.32]  or AI in general, so a focus stone like LLAMs,
+[23.32 - 27.00]  I don't know, like, papalats, functions, and stuff like that.
+[27.00 - 29.04]  So everything that works with text, right?
+[29.04 - 32.16]  Because it has more application to the business
+[32.16 - 33.76]  than it works with text.
+[33.76 - 39.84]  But still, usually what is being forgotten is images
+[39.84 - 42.72]  and audio processing can't.
+[42.72 - 45.88]  Getting the images, I can't say this like,
+[45.88 - 49.28]  easy to monetize this.
+[49.28 - 51.08]  So not to my business applications.
+[51.08 - 57.80]  So I know a lot of cases where clients came to us,
+[57.80 - 62.00]  like 3Pam and asked to create something,
+[62.00 - 66.52]  like, I don't know, maybe I read over a hundred of cases.
+[66.52 - 69.32]  And only on the several of them were related
+[69.32 - 71.00]  to image generation.
+[71.00 - 76.28]  But some of them, like more of these cases,
+[76.28 - 77.52]  are related to audio.
+[77.52 - 81.16]  And one of the usual requests is, OK, guys,
+[81.16 - 86.68]  we have 5,000 hours of recordings of, I don't know,
+[86.68 - 91.20]  meetings or customers calling us for the support.
+[91.20 - 95.08]  So we need to understand this data, right?
+[95.08 - 98.00]  So imagine you have a first line support,
+[98.00 - 101.64]  like people calling, like real users calling,
+[101.64 - 105.16]  describing the issue and the operators are just sharing.
+[105.16 - 107.76]  So what should you do to solve it?
+[107.76 - 109.76]  And you need to control it somehow, right?
+[109.76 - 113.28]  So you need to see what are the most popular questions,
+[113.28 - 115.16]  what are the answers.
+[116.04 - 118.60]  Is the client is happy or not, right?
+[118.60 - 121.68]  And for this case, you need to voice processing.
+[121.68 - 125.60]  And processing the voice is actually very old technology.
+[125.60 - 133.28]  I don't remember how old it is, but two things here,
+[133.28 - 138.00]  usually working is text-to-speech and speech-to-text.
+[138.00 - 142.76]  And if we check, I didn't know, like, let's check,
+[142.76 - 145.44]  Asia or text-to-speech.
+[145.44 - 147.92]  OK, it's a Y-speech now, all right.
+[147.92 - 148.92]  I got it.
+[148.92 - 151.60]  Everything is a Y now.
+[151.60 - 154.32]  Let me check the pricing, actually.
+[154.32 - 155.44]  DTS pricing.
+[155.44 - 156.56]  It's super cheap.
+[156.56 - 159.36]  It's super cheap.
+[159.36 - 160.80]  OK, I think here.
+[164.48 - 171.68]  So this is, OK, free tier, all right.
+[171.68 - 173.84]  Basically, all right, then it is one.
+[173.84 - 175.16]  So speech-to-text.
+[175.16 - 177.16]  So in order to transcript something,
+[177.16 - 181.92]  like if you have a phone call, real-time transcription,
+[181.92 - 185.04]  $1 per hour, that's too much.
+[185.04 - 186.60]  OK, batch transcription.
+[186.60 - 190.40]  So if I have a lot of audio calls, I didn't know, like, one
+[190.40 - 191.52]  agreed.
+[191.52 - 193.60]  I can post them as a batch.
+[193.60 - 196.44]  And this will result me in 80 cents per hour.
+[196.44 - 198.20]  So not too much, actually.
+[202.12 - 208.16]  Yeah, as usually, like Microsoft has, like, very complicated stuff
+[208.16 - 209.72]  for billing.
+[209.72 - 213.80]  So it's hard to understand how much you will spend.
+[213.80 - 215.48]  And here is like the text-to-speech.
+[215.48 - 217.96]  So basically, two directions.
+[217.96 - 220.92]  Like, from speech, you can extract text.
+[220.92 - 225.48]  And from text, you can generate speech, right?
+[225.48 - 229.28]  And this is like the standard voice.
+[229.28 - 231.52]  I think this standard voice become
+[231.52 - 236.72]  neural during last year, because previously,
+[236.72 - 241.96]  they had a different pricing.
+[241.96 - 245.28]  The standard voice is like this robotized voice
+[245.28 - 248.88]  usually here when you call a bank or something.
+[248.88 - 250.88]  And neural voice is more pleasant,
+[250.88 - 255.16]  more realistically, more naturally, not owned.
+[255.16 - 258.08]  So right now, I don't think they should have
+[258.16 - 263.04]  some kind of cheap voice, like this old cheap voice.
+[263.04 - 265.32]  Probably it's inside the EJ-rear studio,
+[265.32 - 268.04]  but the trick is it's not expensive, right?
+[268.04 - 272.08]  So one million characters is like, it's a lot.
+[272.08 - 277.32]  $15 for business, it's like, well, not too much, I think.
+[277.32 - 284.84]  So, and in case we have 1,000 of phone calls
+[284.84 - 286.96]  just transcript it, so it will result as
+[286.96 - 289.60]  is only less than $200.
+[289.60 - 291.36]  So that's acceptable for that.
+[292.60 - 296.96]  And they definitely use machine learning there, right?
+[296.96 - 299.96]  So because there's no way programmatically,
+[299.96 - 302.96]  like algorithmically, to transcribe this speech.
+[303.92 - 309.08]  But still, the interesting thing here is,
+[309.08 - 313.16]  it's also possible to use machine learning techniques
+[313.16 - 317.00]  and all this concept of token we've been discussing previously,
+[317.00 - 321.28]  in working with speech, in understanding this speech.
+[321.28 - 324.68]  And the project, the project I would like to show you,
+[324.68 - 329.40]  this whisper, so let me find, it should be here
+[329.40 - 330.68]  in the notes I put.
+[333.04 - 334.12]  Yeah, this one.
+[336.40 - 338.72]  It wasn't introduced very similar
+[338.72 - 341.72]  once the charge GPC arrived, right?
+[341.72 - 349.96]  So, I'm just trying to recognize what was the time
+[349.96 - 352.72]  when charge GPC released, OK?
+[352.72 - 355.72]  Well, chat, GPC.
+[356.72 - 358.72]  I released.
+[359.72 - 363.24]  OK, November 32, all right, 2022.
+[363.24 - 366.88]  Yeah, so they introduced the whisper like a couple of months
+[366.88 - 368.48]  before charge GPC.
+[368.48 - 373.72]  And they know what happens, like, do you remember this movie,
+[373.72 - 374.96]  Sutton's Floor?
+[381.28 - 382.08]  This one.
+[383.04 - 384.80]  So do you know this movie?
+[384.80 - 385.80]  Sutton's Floor?
+[386.96 - 391.28]  It's kind of like popular from scientific perspective,
+[391.28 - 393.32]  but they got the problem, right?
+[393.32 - 397.04]  So this is the cyber, like, not the cyberpunk,
+[397.04 - 401.04]  but probably like, interesting science fiction.
+[401.04 - 405.92]  But take a look at the release, the year is 1999.
+[405.92 - 412.52]  The problem is that in 1999, this movie gets out, Matrix.
+[412.52 - 416.76]  And that's why, like, everyone knows about the Matrix.
+[416.76 - 419.84]  It was like, very successful movie.
+[419.84 - 424.76]  And this is the reason, much more less people know
+[424.76 - 428.36]  than that this movie, Sutton's Floor even exists.
+[428.36 - 432.08]  If they release it like a year previous before Matrix,
+[432.08 - 433.40]  so much more success.
+[433.40 - 434.76]  So the same is the whisper, right?
+[434.76 - 437.52]  So charge GPC release, November of the year,
+[437.52 - 440.56]  and the whisper actually the same company opened here,
+[440.56 - 448.68]  but it was not so hyped in September as it become in November, right?
+[448.68 - 451.32]  So what they introduced is they actually
+[451.32 - 453.52]  have been working like, at the same time,
+[453.52 - 456.44]  looks like they've been working at the whisper
+[456.44 - 459.44]  and parallel, like working with charge GPC, right?
+[459.44 - 464.52]  So they reused the same, like, not the same,
+[464.52 - 468.00]  but similar architecture, like in-corders, decoders,
+[468.00 - 470.96]  and tokens to predict the tokens,
+[470.96 - 475.60]  but not from text, but from audio as well.
+[475.60 - 479.60]  So they just take a look at the audio, right?
+[479.80 - 485.08]  And in the paper, so they share like this one.
+[485.08 - 490.08]  So they took 680,000 hours of multilingual audio.
+[496.92 - 501.40]  So they sliced it in 30 seconds, like steps,
+[501.40 - 503.68]  not steps, but chunks.
+[503.68 - 509.16]  And they trained the model against it,
+[509.16 - 514.64]  using the same approach they use for the GPC.
+[514.64 - 521.24]  So pretty the same, like, slice the data into some samples,
+[521.24 - 524.92]  try to predict the tokens, like compare with the result,
+[524.92 - 528.20]  learn, train the model, and so on.
+[528.20 - 535.08]  And this results in a very interesting thing, very high quality.
+[535.08 - 538.64]  And I don't know if there are any model right now, which can be,
+[538.64 - 541.04]  but it's the quality of Whisper.
+[541.04 - 545.44]  Because once it was released, it was like very high quality.
+[545.44 - 550.92]  They released another model, a couple of months ago,
+[550.92 - 554.08]  I think it's called Whisper Turbo, but the architecture
+[554.08 - 557.12]  seems to stay the same.
+[557.12 - 561.04]  And one more interesting thing here is it's completely open-sourced.
+[561.04 - 567.48]  So you can download it, and it doesn't require a lot of VRAM to run.
+[567.48 - 571.08]  So you can run it on the GPU.
+[571.08 - 574.84]  You can run it a bit slower on the CPU.
+[574.84 - 579.00]  And as far as it's not a large language model,
+[579.00 - 583.32]  it will perform like with acceptable speed.
+[583.32 - 587.96]  I've been running it at the CPU once, and it works normally.
+[587.96 - 591.24]  So not so slow as the LLM.
+[591.24 - 593.60]  So we are not so interested in technical details,
+[593.60 - 599.04]  and I don't understand them actually just to explain to you.
+[599.04 - 600.04]  But what were the interesting?
