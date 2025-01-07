@@ -1,1 +1,4 @@
 .env
+# Ignore specific files
+05 - OpenAI code interpreter, chat with data/IMDB_Movies_Dataset.csv
+05 - OpenAI code interpreter, chat with data/landcruiser-300-owners-manual-jul-21-current.pdf
