@@ -68,7 +68,7 @@ These pressures are applicable year-round. Adjustments may be needed in extreme 
 
 ## Link
 
-[Download the PDF of the Land Cruiser 300 Owner's Manual](file-Bm1sUkvG9mmAwE5ZB8vK2F)
+[Download the PDF of the Land Cruiser 300 Owner's Manual](https://toyotamanuals.com.au/docs/landcruiser-300-owners-manual-jul-21-current/)
 
 ## User Prompt
 
@@ -86,4 +86,4 @@ A histogram of the average user ratings was created, showing the distribution of
 
 ## Link
 
-[Download the CSV of the IMDB Movies Dataset](file-UfspEZjJXzQBZdTfVXHRsA)
+[Download the CSV of the IMDB Movies Dataset](https://www.kaggle.com/datasets/hetbabariya/imdb-movies-data-collection-5000-records?resource=download)
