@@ -12,8 +12,7 @@ load_dotenv()
 # Constants
 MODEL = "gpt-4"
 DATABASE = "buildings_with_coordinates_2.db"
-USER_MESSAGE = ("Hi, show the 10 most expensive buildings in almaty. Check only numeric values and"
-                "ignore textual values.")
+USER_MESSAGE = "Hi, calculate the total buildings for each city"
 
 # Initialize OpenAI client
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -36,6 +35,7 @@ tools = [
         "function": {
             "name": "query_database",
             "description": "Query a SQLite database to retrieve real estate information.",
+            "strict": True,
             "parameters": {
                 "type": "object",
                 "properties": {
@@ -44,7 +44,8 @@ tools = [
                         "description": "The SQL query to execute."
                     }
                 },
-                "required": ["sql_query"]
+                "required": ["sql_query"],
+                "additionalProperties": False
             }
         }
     }
@@ -52,19 +53,10 @@ tools = [
 
 # Step 1: Function to query the database
 def query_database(sql_query: str) -> list:
-    """
-    Executes a SQL query on the SQLite database and returns the results.
-
-    Args:
-        sql_query (str): The SQL query to execute.
-
-    Returns:
-        list: A list of rows returned by the query.
-    """
     try:
         # Connect to the SQLite database
-        with sqlite3.connect(DATABASE) as conn:
-            cursor = conn.cursor()
+        with sqlite3.connect(DATABASE) as connection:
+            cursor = connection.cursor()
             cursor.execute(sql_query)
             results = cursor.fetchall()
             return results
@@ -74,19 +66,13 @@ def query_database(sql_query: str) -> list:
 # Step 2: Create a chat completion request
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
 def create_chat_completion_request(user_query: str):
-    """
-    Sends a chat completion request to OpenAI and handles function calling if necessary.
-
-    Args:
-        user_query (str): The user's query.
-    """
     try:
         # Step 2.1: Include the database schema in the system prompt
         system_prompt = f"""
         You are a helpful assistant that queries a SQLite database to retrieve real estate information.
         The database schema is as follows:
         {database_schema}
-        Always generate valid SQL queries based on this schema and use 'min_price_per_sqm' column for prices.
+        Always generate valid SQL queries based on this schema.
         """
 
         # Step 2.2: Send the initial chat completion request
