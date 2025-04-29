@@ -1,0 +1,14 @@
+streamlit
+numpy
+python-dotenv
+requests
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+faiss-cpu
+pypdf
+openai
+tiktoken
+# Optional: install if using Jira integration
+# jira
