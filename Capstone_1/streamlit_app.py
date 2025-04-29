@@ -1,15 +1,10 @@
-# -*- coding: utf-8 -*-
 """
 Streamlit web application for the RAG system with ticket creation integration.
 """
 
 import streamlit as st
 import os
-import sys
-import importlib.util
 import logging
-import asyncio
-import numpy as np
 from dotenv import load_dotenv
 import requests # For Trello API or potentially Jira
 # from jira import JIRA # Install if Jira is chosen
@@ -47,12 +42,10 @@ JIRA_API_TOKEN = os.getenv("JIRA_API_TOKEN")
 
 # Trello Specific (Example Env Vars - Required if TICKET_SYSTEM='Trello')
 # Ensure these are set in your .env file or environment
-# TRELLO_BOARD_ID=DzhpzEl5
-# TRELLO_LIST_ID=6810b8057c02db1e7c00616c
 # TRELLO_API_KEY=your_trello_api_key
 # TRELLO_API_TOKEN=your_trello_api_token
-TRELLO_BOARD_ID = os.getenv("TRELLO_BOARD_ID", "DzhpzEl5") # Defaulting for clarity, but env var is preferred
-TRELLO_LIST_ID = os.getenv("TRELLO_LIST_ID", "6810b8057c02db1e7c00616c") # Defaulting for clarity, but env var is preferred
+TRELLO_BOARD_ID = os.getenv("TRELLO_BOARD_ID") # Defaulting for clarity, but env var is preferred
+TRELLO_LIST_ID = os.getenv("TRELLO_LIST_ID") # Defaulting for clarity, but env var is preferred
 TRELLO_API_KEY = os.getenv("TRELLO_API_KEY")
 TRELLO_API_TOKEN = os.getenv("TRELLO_API_TOKEN")
 
@@ -161,7 +154,7 @@ def load_or_create_vector_store(_embeddings): # Pass embeddings explicitly
 
 # --- RAG Generation Logic (Adapted for Streamlit) --- 
 
-# Note: Pre/Post processing with LLM adds latency. Consider simplifying.
+# Note: Pre- and post-processing with LLM adds latency. Consider simplifying.
 def preprocess_user_prompt(user_prompt: str, chat_history: list, llm) -> str:
     # Simplified version for Streamlit - can add LLM call back if needed
     logging.info(f"Preprocessing prompt: 	{user_prompt}")
